@@ -57,7 +57,7 @@ for k = 1:T
                     x{k+1}(2)    == x{k}(2) + dt*x{k}(3)*sin(x{k}(4)), % y = y + dt*v*sin(theta)
                     x{k+1}(3)    == x{k}(3) + dt*u{k}(1), % v = v + dt*a
                     x{k+1}(4)    == x{k}(4) + dt*x{k}(3)*tan(x{k}(5))/b_width, % theta = theta + dt*v*tan(phi)/b_width
-                    x{k+1}(5)    == x{k}(5) + dt*u{k}(2), % phi = phi + dt*iota  
+                    x{k+1}(5)    == x{k}(5) + dt*u{k}(2), % phi = phi + dt*eta  
                     -umax <= u{k} <= umax,
                     zmin <= x{k} <= zmax
                   ];

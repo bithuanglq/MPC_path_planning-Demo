@@ -5,6 +5,7 @@ Before using this code, we want you to have installed [Yalmip](https://yalmip.gi
 
 vehicle's parameters:
 
+![vehicle parameters](vehicle.png)
 
 
 [Chinese blog](https://zhuanlan.zhihu.com/p/652511722)
